@@ -1,6 +1,8 @@
 $(document).ready(function()
 {
+	$('table').hide();
+	$('address').hide();
 	$('table').find('a').each(function() {
-    $('#links').append($(this).attr('href')+'<br>');
+    $('h1').append($(this).attr('href')+'<br>');
 	});
 });
